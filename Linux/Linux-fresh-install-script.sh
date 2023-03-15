@@ -158,7 +158,7 @@ echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
 # Add an alias to cls to clear the console
-alias cls="clear"
+echo 'alias cls="clear"' >> ~/.config/fish/config.fish
 
 
 # Installing additional software
